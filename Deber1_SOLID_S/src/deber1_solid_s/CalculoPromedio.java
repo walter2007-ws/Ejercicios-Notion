@@ -9,7 +9,7 @@ package deber1_solid_s;
  * @author Admin
  */
 public class CalculoPromedio {
-    public double calcularPromedio(Estudiante estudiante) {
+    public double calcularPromedio(Estudiante estudiante) throws Exception {
         return (estudiante.getNota1() + estudiante.getNota2() + estudiante.getNota3())/3;
     }
 }
